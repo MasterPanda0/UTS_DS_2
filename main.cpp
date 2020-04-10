@@ -465,32 +465,10 @@ void Transaksi() {
 
 int main()
 {
-	/*queue.enqueue((char*)"D1234AAA", 1, 1,1,1, 120000);
-	queue.enqueue((char*)"D1234BBB", 1, 1, 0, 1, 150000);
-	queue.enqueue((char*)"D1234CCC", 1, 1, 1, 0, 110000);
-	queue.printAll();
-	mobil depan = queue.front();
-	cout << endl<<"--------------------------------------------------" << endl;
-	cout << depan.plat << endl << depan.biaya << endl;
-	cout << endl << "--------------------------------------------------" << endl;
-	queue.popPlat((char*)"D1234BBB");
-	queue.printAll();*/
 	console.println(0, 0, center("WASH - WASH", 98));
 	console.clearConsole();
 	thread timer(ticker);
 	system("PAUSE");
-	/*console.goTo(0, 9);
-	console.println(0, 9, "    ");
-	console.println(0,10,"Hello world");
-	getchar();
-	console.print(0, 11, "Masukan No Plat: ");
-	console.print(40, 11, "Tipe kendaraan: ");
-	string a, b, c;
-	console.goTo(18, 11);
-	cin >> a;
-	console.goTo(57, 11);
-	cin >> b;
-	cout << "a: " << a << "|b: " << b << endl;*/
 	console.clearConsole();
 	int p = 0;
 	while (p != 5) {
